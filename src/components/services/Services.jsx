@@ -27,7 +27,7 @@ const Services = () => {
       initial="initial"
       animate="animate"
     >
-      <motion.div className="textContainer">
+      {/* <motion.div className="textContainer">
         <p>
           I focus on helping your brand grow <br />
           and move forward
@@ -48,8 +48,8 @@ const Services = () => {
           </h1>
           <button>WHAT WE DO?</button>
         </div>
-      </motion.div>
-      <motion.div className="listContainer" variants={variants}>
+      </motion.div> */}
+      {/* <motion.div className="listContainer" variants={variants}>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
@@ -98,7 +98,7 @@ const Services = () => {
           </p>
           <button>Go</button>
         </motion.div>
-      </motion.div>
+      </motion.div> */}
     </motion.div>
   );
 };
